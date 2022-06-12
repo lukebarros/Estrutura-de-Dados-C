@@ -11,7 +11,7 @@ no *crialista(int n){
     no *ini, *p, *ult;
     int valor;
     ini=ult=NULL;
-    for (int i=1;i<n;i++) {
+    for (int i=1;i<=n;i++) {
         printf("\nDigite o valor %d da lista: ", i);
         scanf("%d", &valor);
         p=(no*)malloc(sizeof(no));
